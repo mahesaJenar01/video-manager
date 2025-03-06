@@ -1,2 +1,5 @@
 downloads
 trimmed_videos
+__pycache__/
+*.pyc
+*.pyo
