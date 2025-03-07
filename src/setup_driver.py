@@ -8,7 +8,7 @@ def setup_driver(download_dir):
     """
     logging.info("Setting up Chrome options.")
     chrome_options = Options()
-    chrome_options.add_argument("window-size=150,910")
+    chrome_options.add_argument("window-size=150,150")
     
     prefs = {
         "download.default_directory": download_dir,

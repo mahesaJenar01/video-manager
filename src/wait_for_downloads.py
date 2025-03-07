@@ -2,7 +2,7 @@ import os
 import time
 import logging
 
-def wait_for_downloads(directory, timeout=60, existing_files=None):
+def wait_for_downloads(directory, timeout=120, existing_files=None):
     logging.info("Waiting for file download to complete...")
     if existing_files is None:
         existing_files = set(os.listdir(directory))
